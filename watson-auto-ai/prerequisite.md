@@ -10,11 +10,11 @@
 
 1. Start by creating a project
 
- ![Create Project in Watson Studio](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/ws_create_project.png)
+![Create Project in Watson Studio](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/ws_create_project.png)
 
-  2. Project creation details
+2. Project creation details
 
- ![Create Project Details](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/watson_studio_create.png)
+![Create Project Details](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/watson_studio_create.png)
 
 ###  
 
