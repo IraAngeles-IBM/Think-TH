@@ -6,3 +6,7 @@
 
 * [Prerequisite](watson-auto-ai/prerequisite.md)
 
+## Watson Discovery
+
+* [Untitled](watson-discovery/untitled.md)
+
