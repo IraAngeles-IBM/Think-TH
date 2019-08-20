@@ -1,10 +1,14 @@
 # Table of contents
 
-* [Think-TH](README.md)
+* [Journey to Data & AI Workshop](README.md)
+
+## Prerequisite
+
+* [IBM Cloud](prerequisite/ibm-cloud.md)
 
 ## Watson Auto AI
 
-* [Prerequisite](watson-auto-ai/prerequisite.md)
+* [Step 0: Watson Service Creation](watson-auto-ai/prerequisite.md)
 
 ## Watson Discovery
 

@@ -1,4 +1,8 @@
-# Prerequisite
+---
+description: Create Watson Service in IBM Cloud and download sample data.
+---
+
+# Step 0: Watson Service Creation
 
 
 

@@ -1,2 +1,2 @@
-# Think-TH
+# Journey to Data & AI Workshop
 
