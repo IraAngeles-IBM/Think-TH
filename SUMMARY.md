@@ -13,4 +13,5 @@
 ## Watson Discovery
 
 * [About](watson-discovery/untitled.md)
+* [Step 1: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
 
