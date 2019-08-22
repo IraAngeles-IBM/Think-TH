@@ -6,12 +6,12 @@
 
 * [IBM Cloud](prerequisite/ibm-cloud.md)
 
-## Watson Auto AI
+## IBM Watson Auto AI <a id="watson-auto-ai"></a>
 
 * [Step 0: Watson Service Creation](watson-auto-ai/prerequisite.md)
 
-## Watson Discovery
+## IBM Watson Discovery <a id="watson-discovery"></a>
 
 * [About](watson-discovery/untitled.md)
-* [Step 1: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
+* [Step 0: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
 
