@@ -16,6 +16,7 @@ From the model details page:
   * Select “Web service” as the **Deployment type**.
   * Click **Save**.
 
-After you save the deployment, click on the deployment name to view the deployment details page.  
+After you save the deployment, click on the deployment name to view the deployment details page.
 
+![](../.gitbook/assets/image%20%286%29.png)
 
