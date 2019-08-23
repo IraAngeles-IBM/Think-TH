@@ -9,6 +9,9 @@
 ## IBM Watson Auto AI <a id="watson-auto-ai"></a>
 
 * [Step 0: Watson Service Creation](watson-auto-ai/prerequisite.md)
+* [Step 1: Build and train the model](watson-auto-ai/step-1-build-and-train-the-model.md)
+* [Step 2: Deploy the trained model](watson-auto-ai/step-2-deploy-the-trained-model.md)
+* [Step 3: Test the deployed model](watson-auto-ai/step-3-test-the-deployed-model.md)
 
 ## IBM Watson Discovery <a id="watson-discovery"></a>
 
