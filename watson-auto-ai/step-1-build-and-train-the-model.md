@@ -9,15 +9,14 @@
 2. In the page that opens, fill in the basic fields:
 
 * Specify a name and optional description for your new model. 
+
+![Define autoai](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/create_auto_ai.png)
+
 * Confirm that the **IBM Watson Machine Learning Service** instance that you associated with your project is selected in the Machine Learning Service section.
 
 ![Watson ML](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/WML_create.png)
 
-![Define autoai](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/create_auto_ai.png)
-
-1. Click **Create**.
-
- 
+3. Click **Create**.
 
 ![Create Model](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/auto_ai_createWML.png)
 
