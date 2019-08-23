@@ -54,6 +54,6 @@ The model built in this tutorial will predict whether a given customer is likely
 This tutorial presents the basic steps for building and training a machine learning model using model builder in Watson Studio:
 
 1. [Build and train the model](https://github.com/IraAngeles-IBM/WatsonAutoAi/wiki/Step-1:-Build-and-train-the-model)
-2. [Deploy the trained model](https://github.com/IraAngeles-IBM/WatsonAutoAi/wiki/Step-2:-Deploy-the-trained-model)
+2. [Deploy the trained model](https://app.gitbook.com/@sg-deg-ibm/s/think-th/~/drafts/-Lmz2AFduFAxEDGnf1wr/primary/watson-auto-ai/step-1-build-and-train-the-model)
 3. [Test the deployed model](https://github.com/IraAngeles-IBM/WatsonAutoAi/wiki/Step-3:-Test-the-deployed-model)
 
