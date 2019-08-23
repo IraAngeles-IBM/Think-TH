@@ -4,13 +4,11 @@ description: Create Watson Service in IBM Cloud and download sample data.
 
 # Step 0: Watson Service Creation
 
-
-
-* Create Watson Studio Service
+### Create Watson Studio Service
 
 ![Create Watson Studio Service](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/create_watson_studio.png)
 
-* Create a project in Watson Studio
+### Create a project in Watson Studio
 
 1. Start by creating a project
 
@@ -19,8 +17,6 @@ description: Create Watson Service in IBM Cloud and download sample data.
 2. Project creation details
 
 ![Create Project Details](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/watson_studio_create.png)
-
-###  
 
 ### Sample data
 
@@ -50,8 +46,6 @@ In this tutorial, the label column is the IS\_TENT column:
 * IS\_TENT: Whether or not the customer bought a tent
 
 The model built in this tutorial will predict whether a given customer is likely to purchase a tent.
-
-###  
 
 ### Steps overview
 

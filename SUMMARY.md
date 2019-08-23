@@ -6,8 +6,9 @@
 
 * [IBM Cloud](prerequisite/ibm-cloud.md)
 
-## IBM Watson Auto AI <a id="watson-auto-ai"></a>
+## IBM Watson Studio Auto AI <a id="watson-auto-ai"></a>
 
+* [Watson Studio Overview](watson-auto-ai/watson-studio-overview.md)
 * [Step 0: Watson Service Creation](watson-auto-ai/prerequisite.md)
 * [Step 1: Build and train the model](watson-auto-ai/step-1-build-and-train-the-model.md)
 * [Step 2: Deploy the trained model](watson-auto-ai/step-2-deploy-the-trained-model.md)
