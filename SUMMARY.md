@@ -16,4 +16,5 @@
 * [Step 0: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
 * [Step 1: Launch the tooling](watson-discovery/step-1-launch-the-tooling.md)
 * [Step 2: Create a collection](watson-discovery/step-2-create-a-collection.md)
+* [Step 3: Download the sample document and upload to your collection](watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md)
 
