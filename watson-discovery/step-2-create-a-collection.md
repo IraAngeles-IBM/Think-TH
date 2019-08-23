@@ -16,7 +16,7 @@ The public, pre-enriched Discovery News data collection is also available for yo
 
    When creating a collection, under **Advanced**, you have the option to choose a configuration file named **Default Contract Configuration**. This configuration supports only the Element Classification enrichment, which can be used to extract party, nature, and category from elements in PDFs. See [Element Classification](https://cloud.ibm.com/docs/services/discovery?topic=discovery-element-classification&locale=en-US#element-collection) for details. Do not choose this option for this tutorial.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 Note: _You can also crawl Box, Salesforce, Microsoft SharePoint Online, IBM Cloud Object Storage, and Microsoft SharePoint 2016 data sources, or do a web crawl with the Discovery tooling. Click the **Connect a data source** button and see_ [_Connecting to data sources_](https://cloud.ibm.com/docs/services/discovery?topic=discovery-sources#sources) _for more information_.
 

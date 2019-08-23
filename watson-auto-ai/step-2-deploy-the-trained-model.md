@@ -18,5 +18,5 @@ From the model details page:
 
 After you save the deployment, click on the deployment name to view the deployment details page.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 

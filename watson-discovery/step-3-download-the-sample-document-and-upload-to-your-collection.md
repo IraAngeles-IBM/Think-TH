@@ -11,7 +11,7 @@
 * Enrichments applied to your document. The Entity Extraction, Sentiment Analysis, Category Classification, and Concept Tagging enrichments are automatically applied to the `text` field by Discovery. Learn more about enrichments [here](https://cloud.ibm.com/docs/services/discovery?topic=discovery-configservice#adding-enrichments)\).
 * Pre-built queries you can run immediately.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 
 
