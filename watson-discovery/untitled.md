@@ -2,7 +2,7 @@
 description: >-
   IBM Watson™ Discovery makes it possible to rapidly build cognitive,
   cloud-based exploration applications that unlock actionable insights hidden in
-  unstructured data — including your own proprietary da
+  unstructured data.
 ---
 
 # Discovery Overview
