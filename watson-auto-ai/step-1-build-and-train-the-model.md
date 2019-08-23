@@ -2,7 +2,7 @@
 
 ### 1.1 Specify basic model details
 
-1. From the Assets page of your project in Watson Studio, click **Add to project** and choose AUTOAI EXPERIMENT.
+1. From the Assets page of your project in Watson Studio, click **Add to project** and choose **AutoAI EXPERIMENT**.
 
 ![add to project auto ai](https://github.com/IraAngeles-IBM/WatsonAutoAi/raw/master/auto_ai.png)
 
