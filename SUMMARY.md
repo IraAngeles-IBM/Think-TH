@@ -31,4 +31,5 @@
 * [Watson Studio Documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp&context=wdp)
 * [IBM Cloud Documentation](https://cloud.ibm.com/docs)
 * [Discovery API documentation](https://cloud.ibm.com/apidocs/discovery)
+* [IBM Developer](https://developer.ibm.com/)
 
