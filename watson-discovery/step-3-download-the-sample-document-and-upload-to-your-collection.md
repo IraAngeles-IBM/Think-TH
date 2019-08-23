@@ -1,6 +1,6 @@
 # Step 3: Download the sample document and upload to your collection
 
-1. Download the following  **breaches.zip**  file and **extract**.
+1. Download the following  **breaches.zip**  file and **extract.** 
 
 {% file src="../.gitbook/assets/breaches.zip" caption="Sample collection data" %}
 
