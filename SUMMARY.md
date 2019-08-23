@@ -28,4 +28,6 @@
 * [Sample Application: Use the Watson Discovery Service to analyze cyber security breaches](https://github.com/IBM/watson-discovery-analyze-data-breaches)
 * [Sample data set source](https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 * [Preparing CSV data set to Watson Discovery Service](https://github.com/IBM/watson-discovery-analyze-data-breaches/blob/master/doc/index.md)
+* [Watson Studio Documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp&context=wdp)
+* [IBM Cloud Documentation](https://cloud.ibm.com/docs)
 
