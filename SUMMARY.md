@@ -22,4 +22,5 @@
 ## Links
 
 * [Sample Application: Use the Watson Discovery Service to analyze cyber security breaches](https://github.com/IBM/watson-discovery-analyze-data-breaches)
+* [Sample data set source](https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
