@@ -30,4 +30,5 @@
 * [Preparing CSV data set to Watson Discovery Service](https://github.com/IBM/watson-discovery-analyze-data-breaches/blob/master/doc/index.md)
 * [Watson Studio Documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp&context=wdp)
 * [IBM Cloud Documentation](https://cloud.ibm.com/docs)
+* [Discovery API documentation](https://cloud.ibm.com/apidocs/discovery)
 
