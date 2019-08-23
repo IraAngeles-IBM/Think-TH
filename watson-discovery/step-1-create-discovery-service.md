@@ -2,11 +2,11 @@
 
 1. Log in to IBM Cloud
 
-2. Create Discovery service
+2. **Create** Discovery service
 
 ![](../.gitbook/assets/image.png)
 
-3. **Create**
+
 
 
 
