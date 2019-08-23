@@ -16,7 +16,7 @@
 
 ## IBM Watson Discovery <a id="watson-discovery"></a>
 
-* [About](watson-discovery/untitled.md)
+* [Discovery Overview](watson-discovery/untitled.md)
 * [Step 0: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
 * [Step 1: Launch the tooling](watson-discovery/step-1-launch-the-tooling.md)
 * [Step 2: Create a collection](watson-discovery/step-2-create-a-collection.md)

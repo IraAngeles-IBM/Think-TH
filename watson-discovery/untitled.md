@@ -5,7 +5,7 @@ description: >-
   unstructured data — including your own proprietary da
 ---
 
-# About
+# Discovery Overview
 
 This is the architecture of a complete Discovery solution:
 
