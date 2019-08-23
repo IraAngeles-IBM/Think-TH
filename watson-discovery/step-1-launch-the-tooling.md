@@ -1,4 +1,4 @@
-# Step 1: Launch the tooling
+# Step 2: Launch the tooling
 
 1. On the **Manage** page, click **Launch Watson Discovery**. If you're prompted to log in to the tooling, provide your IBM Cloud credentials.
 

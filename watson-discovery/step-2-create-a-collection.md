@@ -2,7 +2,7 @@
 description: Your first step in the Discovery tooling is to create a data collection.
 ---
 
-# Step 2: Create a collection
+# Step 3: Create a collection
 
 A collection is a set of your documents. _Why would I want more than one collection?_ There are a few reasons:
 

@@ -1,4 +1,4 @@
-# Step 1: Build and train the model
+# Step 2: Build and train the model
 
 ### 1.1 Specify basic model details
 

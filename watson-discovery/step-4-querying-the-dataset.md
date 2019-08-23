@@ -1,4 +1,4 @@
-# Step 4: Querying the dataset
+# Step 5: Querying the dataset
 
 1. Let's try a quick Natural Language Query to level set. Click **Build your own query** on the lower right.
 

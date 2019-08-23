@@ -9,19 +9,19 @@
 ## IBM Watson Studio Auto AI <a id="watson-auto-ai"></a>
 
 * [Watson Studio Overview](watson-auto-ai/watson-studio-overview.md)
-* [Step 0: Watson Service Creation](watson-auto-ai/prerequisite.md)
-* [Step 1: Build and train the model](watson-auto-ai/step-1-build-and-train-the-model.md)
-* [Step 2: Deploy the trained model](watson-auto-ai/step-2-deploy-the-trained-model.md)
-* [Step 3: Test the deployed model](watson-auto-ai/step-3-test-the-deployed-model.md)
+* [Step 1: Watson Service Creation](watson-auto-ai/prerequisite.md)
+* [Step 2: Build and train the model](watson-auto-ai/step-1-build-and-train-the-model.md)
+* [Step 3: Deploy the trained model](watson-auto-ai/step-2-deploy-the-trained-model.md)
+* [Step 4: Test the deployed model](watson-auto-ai/step-3-test-the-deployed-model.md)
 
 ## IBM Watson Discovery <a id="watson-discovery"></a>
 
 * [Discovery Overview](watson-discovery/untitled.md)
-* [Step 0: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
-* [Step 1: Launch the tooling](watson-discovery/step-1-launch-the-tooling.md)
-* [Step 2: Create a collection](watson-discovery/step-2-create-a-collection.md)
-* [Step 3: Download the sample document and upload to your collection](watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md)
-* [Step 4: Querying the dataset](watson-discovery/step-4-querying-the-dataset.md)
+* [Step 1: Create Discovery Service](watson-discovery/step-1-create-discovery-service.md)
+* [Step 2: Launch the tooling](watson-discovery/step-1-launch-the-tooling.md)
+* [Step 3: Create a collection](watson-discovery/step-2-create-a-collection.md)
+* [Step 4: Download the sample document and upload to your collection](watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md)
+* [Step 5: Querying the dataset](watson-discovery/step-4-querying-the-dataset.md)
 
 ## Links
 

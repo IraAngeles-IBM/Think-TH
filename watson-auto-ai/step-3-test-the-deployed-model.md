@@ -1,4 +1,4 @@
-# Step 3: Test the deployed model
+# Step 4: Test the deployed model
 
 You can test the deployed model from the deployment details page:
 

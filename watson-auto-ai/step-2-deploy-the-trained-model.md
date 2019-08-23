@@ -1,4 +1,4 @@
-# Step 2: Deploy the trained model
+# Step 3: Deploy the trained model
 
 Before you can use your trained model to make predictions on new data, you must deploy the model.
 

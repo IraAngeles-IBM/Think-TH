@@ -1,4 +1,4 @@
-# Step 0: Create Discovery Service
+# Step 1: Create Discovery Service
 
 1. Log in to IBM Cloud
 
