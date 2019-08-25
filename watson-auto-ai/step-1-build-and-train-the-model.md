@@ -1,3 +1,9 @@
+---
+description: >-
+  AutoAI automatically analyzes your data and generates candidate model
+  pipelines customized for your predictive modeling problem.
+---
+
 # Step 2: Build and train the model
 
 ### 1.1 Specify basic model details
