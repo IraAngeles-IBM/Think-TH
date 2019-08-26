@@ -33,4 +33,5 @@
 * [Discovery API documentation](https://cloud.ibm.com/apidocs/discovery)
 * [IBM Developer](https://developer.ibm.com/)
 * [Discovery documentation](https://cloud.ibm.com/docs/services/discovery?topic=discovery-about)
+* [Sample Codes: IBM Developer Code Patterns](https://developer.ibm.com/patterns/)
 
