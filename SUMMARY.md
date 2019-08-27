@@ -34,4 +34,5 @@
 * [IBM Developer](https://developer.ibm.com/)
 * [Discovery documentation](https://cloud.ibm.com/docs/services/discovery?topic=discovery-about)
 * [Sample Codes: IBM Developer Code Patterns](https://developer.ibm.com/patterns/)
+* [Free courses: COGNITIVE CLASS.AI](https://cognitiveclass.ai/)
 
