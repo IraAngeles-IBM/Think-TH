@@ -6,7 +6,7 @@ description: All workshops require IBM Cloud account.
 
 ## Without IBM Cloud account:
 
-Register to IBM Cloud here -&gt; [https://app.gitbook.com/@nuttapwong/s/devadvocate-ibm/](https://app.gitbook.com/@nuttapwong/s/devadvocate-ibm/)
+Register to IBM Cloud here -&gt; [http://ibm.biz/createibmcloud](http://ibm.biz/createibmcloud)
 
 ## With IBM Cloud account:
 
