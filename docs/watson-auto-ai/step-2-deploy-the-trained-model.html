@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Watson Studio Overview · GitBook</title>
+        <title>Step 3: Deploy the trained model · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="prerequisite.html" />
+    <link rel="next" href="step-3-test-the-deployed-model.html" />
     
     
-    <link rel="prev" href="../prerequisite/ibm-cloud.html" />
+    <link rel="prev" href="step-1-build-and-train-the-model.html" />
     
 
     </head>
@@ -129,7 +129,7 @@
         
         
     
-        <li class="chapter active" data-level="3.1" data-path="watson-studio-overview.html">
+        <li class="chapter " data-level="3.1" data-path="watson-studio-overview.html">
             
                 <a href="watson-studio-overview.html">
             
@@ -168,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.4" data-path="step-2-deploy-the-trained-model.html">
+        <li class="chapter active" data-level="3.4" data-path="step-2-deploy-the-trained-model.html">
             
                 <a href="step-2-deploy-the-trained-model.html">
             
@@ -446,7 +446,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Watson Studio Overview</a>
+        <a href=".." >Step 3: Deploy the trained model</a>
     </h1>
 </div>
 
@@ -461,31 +461,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="watson-studio-overview">Watson Studio Overview</h1>
-<p>Watson Studio provides you with the environment and tools to solve your business problems by collaboratively working with data. You can choose the tools you need to analyze and visualize data, to cleanse and shape data, to ingest streaming data, or to create and train machine learning models.</p>
-<p>This illustration shows how the architecture of Watson Studio is centered around the project. A project is where you organize your resources and work with data.</p>
-<p><img src="https://dataplatform.cloud.ibm.com/docs/api/content/wsj/getting-started/images/watsonstudioarch.png" alt="A project contains assets and tools and has input from data sources, the community, and catalogs"></p>
-<p>These are the kind of resources you can have in a project:</p>
+                                <h1 id="step-3-deploy-the-trained-model">Step 3: Deploy the trained model</h1>
+<p>Before you can use your trained model to make predictions on new data, you must deploy the model.</p>
+<p>You can deploy the model from the model details page. You can access the model details page in one of these ways:</p>
 <ul>
-<li>Collaborators are the team who works with the data. Three roles provide <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/collaborator-permissions.html" target="_blank">different permissions</a>.</li>
-<li>Data assets point to your data. Here&#x2019;s what you can do to prepare your data:<ul>
-<li>Access data from connections to your <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/conn_types.html" target="_blank">cloud or on-premises data sources</a></li>
-<li>Access assets from your organization&#x2019;s <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&amp;context=wdp#catalogs" target="_blank">catalogs</a></li>
-<li>Upload files to the project&#x2019;s object storage</li>
-<li>Ingest and analyze streaming data with the <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/streaming-pipelines/overview-streaming-pipelines.html" target="_blank">streams flow tool</a></li>
-<li>Cleanse and shape data with the <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html" target="_blank">Data Refinery tool</a></li>
+<li>Clicking on the model name in the notification displayed when you save the model.</li>
+<li>Open the <strong>Assets</strong> page for the project containing the model and click the model name in the Machine Learning Model section.</li>
 </ul>
-</li>
-<li>Analytical assets and tools are how you derive insights from data.Some tools require additional services. Here&#x2019;s what you can do to analyze your data:<ul>
-<li>Analyze data with <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/notebooks-parent.html" target="_blank">Jupyter notebooks</a> or <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/rstudio-overview.html" target="_blank">RStudio</a>.</li>
-<li>Build, train, and test, and machine learning and deep learning <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html" target="_blank">models</a>.</li>
-<li>Run <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml_dlaas.html" target="_blank">deep learning model experiments</a> in parallel with neural networks.</li>
-<li><a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/visual-recognition-overview.html" target="_blank">Classify images</a> by training deep learning models to recognize image content.</li>
-<li><a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/nlc-overview.html" target="_blank">Classify text</a> by training a model to classify text according to classes you define.</li>
-<li>Create and share <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/analytics-dashboard.html" target="_blank">dashboards</a> of data visualizations without coding. You can also bring in data and analytic assets from the IBM Watson <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&amp;context=wdp#community" target="_blank">Community</a>.</li>
+<p>From the model details page:</p>
+<ul>
+<li>Click the <strong>Deployments</strong> tab.</li>
+<li>Click <strong>Add Deployment</strong>.</li>
+<li>In the page that opens, fill in the fields:<ul>
+<li>Specify a name for the deployment.</li>
+<li>Select &#x201C;Web service&#x201D; as the <strong>Deployment type</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
 </ul>
 </li>
 </ul>
+<p>After you save the deployment, click on the deployment name to view the deployment details page.</p>
+<p><img src="../.gitbook/assets/image%20%282%29.png" alt=""></p>
 
                                 
                                 </section>
@@ -513,12 +508,12 @@
 
             
                 
-                <a href="../prerequisite/ibm-cloud.html" class="navigation navigation-prev " aria-label="Previous page: IBM Cloud">
+                <a href="step-1-build-and-train-the-model.html" class="navigation navigation-prev " aria-label="Previous page: Step 2: Build and train the model">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="prerequisite.html" class="navigation navigation-next " aria-label="Next page: Step 1: Watson Service Creation">
+                <a href="step-3-test-the-deployed-model.html" class="navigation navigation-next " aria-label="Next page: Step 4: Test the deployed model">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -529,7 +524,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Watson Studio Overview","level":"3.1","depth":1,"next":{"title":"Step 1: Watson Service Creation","level":"3.2","depth":1,"path":"watson-auto-ai/prerequisite.md","ref":"watson-auto-ai/prerequisite.md","articles":[]},"previous":{"title":"IBM Cloud","level":"2.1","depth":1,"path":"prerequisite/ibm-cloud.md","ref":"prerequisite/ibm-cloud.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"watson-auto-ai/watson-studio-overview.md","mtime":"2020-05-14T04:11:35.018Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-14T04:24:03.578Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Step 3: Deploy the trained model","level":"3.4","depth":1,"next":{"title":"Step 4: Test the deployed model","level":"3.5","depth":1,"path":"watson-auto-ai/step-3-test-the-deployed-model.md","ref":"watson-auto-ai/step-3-test-the-deployed-model.md","articles":[]},"previous":{"title":"Step 2: Build and train the model","level":"3.3","depth":1,"path":"watson-auto-ai/step-1-build-and-train-the-model.md","ref":"watson-auto-ai/step-1-build-and-train-the-model.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"watson-auto-ai/step-2-deploy-the-trained-model.md","mtime":"2020-05-14T04:11:35.017Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-14T04:24:03.578Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

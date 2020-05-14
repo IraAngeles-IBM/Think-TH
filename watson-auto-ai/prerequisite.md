@@ -17,9 +17,7 @@ Create Watson Service in IBM Cloud and download sample data.
 
 ### Sample data
 
-Download the sample training data file to your local computer from here: 
-
-{% file src="../.gitbook/assets/gosales.csv" %}
+Download the sample training data file to your local computer from here: [gosales.csv](https://raw.githubusercontent.com/IraAngeles-IBM/Think-TH/master/.gitbook/assets/gosales.csv)
 
 The sample data is structured: in rows and columns, and saved in a .csv file.
 
