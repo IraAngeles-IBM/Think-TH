@@ -1,8 +1,5 @@
----
-description: Create Watson Service in IBM Cloud and download sample data.
----
-
 # Step 1: Watson Service Creation
+Create Watson Service in IBM Cloud and download sample data.
 
 ### Create Watson Studio Service
 
