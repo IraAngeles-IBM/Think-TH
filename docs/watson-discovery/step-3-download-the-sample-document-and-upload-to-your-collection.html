@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Step 3: Create a collection · GitBook</title>
+        <title>Step 4: Download the sample document and upload to your collection · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Your first step in the Discovery tooling is to create a data collection.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="step-3-download-the-sample-document-and-upload-to-your-collection.html" />
+    <link rel="next" href="step-4-querying-the-dataset.html" />
     
     
-    <link rel="prev" href="step-1-launch-the-tooling.html" />
+    <link rel="prev" href="step-2-create-a-collection.html" />
     
 
     </head>
@@ -240,7 +240,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.4" data-path="step-2-create-a-collection.html">
+        <li class="chapter " data-level="4.4" data-path="step-2-create-a-collection.html">
             
                 <a href="step-2-create-a-collection.html">
             
@@ -253,7 +253,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.5" data-path="step-3-download-the-sample-document-and-upload-to-your-collection.html">
+        <li class="chapter active" data-level="4.5" data-path="step-3-download-the-sample-document-and-upload-to-your-collection.html">
             
                 <a href="step-3-download-the-sample-document-and-upload-to-your-collection.html">
             
@@ -446,7 +446,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Step 3: Create a collection</a>
+        <a href=".." >Step 4: Download the sample document and upload to your collection</a>
     </h1>
 </div>
 
@@ -461,21 +461,19 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="step-3-create-a-collection">Step 3: Create a collection</h1>
-<p>A collection is a set of your documents. <em>Why would I want more than one collection?</em> There are a few reasons:</p>
-<ul>
-<li>You might want multiple collections in order to separate results for different audiences.</li>
-<li>The data might be so different that it doesn&apos;t make sense for it all to be queried at the same time.</li>
-</ul>
-<p>The public, pre-enriched Discovery News data collection is also available for your use. It is ready to query, and you can begin to create queries on it immediately. You cannot adjust its configuration or add documents to Discovery News.</p>
+                                <h1 id="step-4-download-the-sample-document-and-upload-to-your-collection">Step 4: Download the sample document and upload to your collection</h1>
 <ol>
-<li>Click on <strong>Upload your own data</strong> and choose <strong>Create</strong>.</li>
-<li><p>When your environment is ready, click the <strong>Upload your own data</strong> button, then you can <strong>Name your new collection</strong>. Name your collection <strong>InstallDocs</strong>.</p>
-<p>When creating a collection, under <strong>Advanced</strong>, you have the option to choose a configuration file named <strong>Default Contract Configuration</strong>. This configuration supports only the Element Classification enrichment, which can be used to extract party, nature, and category from elements in PDFs. See <a href="https://cloud.ibm.com/docs/services/discovery?topic=discovery-element-classification&amp;locale=en-US#element-collection" target="_blank">Element Classification</a> for details. Do not choose this option for this tutorial.</p>
+<li><p>Download the following  <a href="https://github.com/IraAngeles-IBM/Think-TH/blob/master/.gitbook/assets/breaches.zip" target="_blank">breaches.zip</a>  file and <strong>extract.</strong> </p>
 </li>
+<li><p>Upload the document to your collection. Either drag and drop it into your collection, or click <strong>browse from computer</strong> to upload documents. After the upload is complete, the following information displays:</p>
+</li>
+<li><p>The number of documents (1).</p>
+</li>
+<li>The fields identified from your document. You should see one field identified, <code>text</code>. We will identify additional fields in a bit.</li>
+<li>Enrichments applied to your document. The Entity Extraction, Sentiment Analysis, Category Classification, and Concept Tagging enrichments are automatically applied to the <code>text</code> field by Discovery. Learn more about enrichments <a href="https://cloud.ibm.com/docs/services/discovery?topic=discovery-configservice#adding-enrichments" target="_blank">here</a>).</li>
+<li>Pre-built queries you can run immediately.</li>
 </ol>
-<p><img src="../.gitbook/assets/image%20%286%29.png" alt=""></p>
-<p>Note: <em>You can also crawl Box, Salesforce, Microsoft SharePoint Online, IBM Cloud Object Storage, and Microsoft SharePoint 2016 data sources, or do a web crawl with the Discovery tooling. Click the <strong>Connect a data source</strong> button and see</em> <a href="https://cloud.ibm.com/docs/services/discovery?topic=discovery-sources#sources" target="_blank"><em>Connecting to data sources</em></a> <em>for more information</em>.</p>
+<p><img src="../.gitbook/assets/image%20%284%29.png" alt=""></p>
 
                                 
                                 </section>
@@ -503,12 +501,12 @@
 
             
                 
-                <a href="step-1-launch-the-tooling.html" class="navigation navigation-prev " aria-label="Previous page: Step 2: Launch the tooling">
+                <a href="step-2-create-a-collection.html" class="navigation navigation-prev " aria-label="Previous page: Step 3: Create a collection">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="step-3-download-the-sample-document-and-upload-to-your-collection.html" class="navigation navigation-next " aria-label="Next page: Step 4: Download the sample document and upload to your collection">
+                <a href="step-4-querying-the-dataset.html" class="navigation navigation-next " aria-label="Next page: Step 5: Querying the dataset">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -519,7 +517,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Your first step in the Discovery tooling is to create a data collection.","title":"Step 3: Create a collection","level":"4.4","depth":1,"next":{"title":"Step 4: Download the sample document and upload to your collection","level":"4.5","depth":1,"path":"watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md","ref":"watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md","articles":[]},"previous":{"title":"Step 2: Launch the tooling","level":"4.3","depth":1,"path":"watson-discovery/step-1-launch-the-tooling.md","ref":"watson-discovery/step-1-launch-the-tooling.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"watson-discovery/step-2-create-a-collection.md","mtime":"2020-05-14T04:11:35.018Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-14T04:26:14.956Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Step 4: Download the sample document and upload to your collection","level":"4.5","depth":1,"next":{"title":"Step 5: Querying the dataset","level":"4.6","depth":1,"path":"watson-discovery/step-4-querying-the-dataset.md","ref":"watson-discovery/step-4-querying-the-dataset.md","articles":[]},"previous":{"title":"Step 3: Create a collection","level":"4.4","depth":1,"path":"watson-discovery/step-2-create-a-collection.md","ref":"watson-discovery/step-2-create-a-collection.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"watson-discovery/step-3-download-the-sample-document-and-upload-to-your-collection.md","mtime":"2020-05-14T04:26:08.510Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-14T04:26:14.956Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

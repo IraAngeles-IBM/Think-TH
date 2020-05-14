@@ -1,8 +1,6 @@
 # Step 4: Download the sample document and upload to your collection
 
-1. Download the following  **breaches.zip**  file and **extract.** 
-
-{% file src="../.gitbook/assets/breaches.zip" caption="Sample collection data" %}
+1. Download the following  [breaches.zip](https://github.com/IraAngeles-IBM/Think-TH/blob/master/.gitbook/assets/breaches.zip)  file and **extract.** 
 
 2. Upload the document to your collection. Either drag and drop it into your collection, or click **browse from computer** to upload documents. After the upload is complete, the following information displays:
 
